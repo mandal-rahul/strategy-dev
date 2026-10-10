@@ -2,7 +2,7 @@
 
 **As of:** Saturday 2026-10-10 (prices from the Oct 6–9 sessions). **Status:** final. An independent red-team agent signed off after 3 rounds; all 17 names and the cash line are AGREE.
 **Shared doc version:** https://claude.ai/code/artifact/6eed3f65-0eb5-4d5a-9597-2f58c5377c52
-**FINAL RECOMMENDATIONS (supersede the allocation below): `FINAL_RECOMMENDATIONS.md`.**
+**FINAL RECOMMENDATIONS (supersede the allocation below): `FINAL_RECOMMENDATIONS.md` (near-term) and `LONG_HORIZON_2-3Y.md` (2–3 year hold).**
 **Full detail:** `working/report_final_detail.md` (per-stock theses, bear cases, kill criteria, scenario map). Research briefs and red-team critiques are in `working/`.
 
 > **Not investment advice.** AI agents produced this research from web-search summaries. The environment's network policy blocked finance sites, exchange pages and Reddit, so no source page was opened directly, and Reddit/ValuePickr sentiment is second-hand. Prices are 1–4 days old. Check live quotes and filings before acting.

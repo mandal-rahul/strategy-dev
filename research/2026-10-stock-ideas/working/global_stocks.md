@@ -690,3 +690,285 @@ Prices are the latest found, with dates shown. P/E figures are as cited in the s
 - **WebFetch, ENOTFOUND:** stockanalysis.com/stocks/uber, stockanalysis.com/stocks/nflx, finance.yahoo.com/quote/UBER, companiesmarketcap.com/uber/marketcap, cnbc.com/quotes/UBER, marketbeat.com/stocks/NYSE/UBER, global.morningstar.com (outlook article), en.wikipedia.org/wiki/Uber, thriveinmarkets.com (weekend recap), and the sec.gov Uber Q2 8-K.
 - **WebFetch, "unable to fetch":** reuters.com/markets.
 - **curl, proxy 403 (organization policy):** stockanalysis.com, query1.finance.yahoo.com, sec.gov, macrotrends.net, old.reddit.com, google.com.
+
+---
+---
+
+# Round 2 additions (2026-10-10, after red-team round 1)
+
+## How to read this section
+
+- **Data source:** The same limits apply. WebFetch fails on DNS and curl is blocked by the proxy, so **every figure comes from a WebSearch result summary.** I used about 49 searches this round.
+- **Confidence tags:** Every figure carries a tag.
+  - **[H]** company filing or release, or consistent across 2 or more sources.
+  - **[M]** a single reputable secondary source.
+  - **[L]** an aggregator, an undated page, a conflicting figure, or a calculation that uses an unverified input.
+- **Other markers:** (calc) means my own arithmetic. (mem) means background knowledge, **not verified**. Earnings are always labelled **GAAP** or **adjusted/non-GAAP**, and known one-off items are called out.
+- **Round 1 corrections accepted:** I agree with the red team on **Alphabet** (its trailing P/E is inflated by a non-cash equity gain) and **Salesforce** (about 7% organic growth, and EPS includes Anthropic gains). Both are removed from the shortlist. I also accept its corrections on INTU, NFLX, UBER, ADBE, TSM and ELV.
+
+## Macro update (relevant to the energy hedge)
+
+- **S&P 500:** closed **7,811.54 on Fri Oct 9** (+0.59%; +1.15% on the week) "as oil prices eased and tech rebounded" [H] ([Yahoo Finance, 2026-10-09](https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-9-135834993.html); [TheStreet, 2026-10-09](https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-09-2026)). FactSet's Q3 S&P 500 EPS growth estimate is **+29.6%** [M].
+- **Brent:**
+  - About **$102.60 on Oct 9**, −1.6% d/d [L] ([Trading Economics](https://tradingeconomics.com/commodity/brent-crude-oil); page metadata unreliable).
+  - About **$108.33** on the morning of Oct 8 [M] ([Fortune, 2026-10-08](https://fortune.com/article/price-of-oil-10-08-2026/)).
+  - In mid-September Brent briefly fell **7% to $83.77** on news of the Hormuz reopening and a planned end to the war [L] ([Ultima Hora](https://www.ultimahora.com/brent)).
+  - TotalEnergies' **Q2-26 average Brent was $103.8** [M] ([Kalkine/TTE trading update](https://kalkinemedia.com/uk/news/announcements/totalenergies-tte-q2-2026-trading-update-brent-climbs-to-1038b-production-nears-24-mboed-amid-middle-east-challenges)).
+  - **Implication:** oil is around $100 or more and swings ±$20 on Iran headlines. A hedge should pay off if the spike persists, but should not lose its valuation case if Brent falls back to $70–75.
+
+---
+
+## R2-1. Energy hedge: compare 5 names, pick one
+
+### Comparison table
+
+| | XOM | CVX | SHEL | **TTE** | ET |
+|---|---|---|---|---|---|
+| **Price (date)** | **$168.94 (Oct 9 close)** [M] | **$211.55 (Oct 8 close)** [M] | London buyback VWAP **£36.65 (Oct 7)** [M] | **€78.43 Paris (Oct 9)** [M]. ADR $88.31 (Aug 31) [L]; Oct ADR not verified | **$20.47 (Oct 2)** [M]; about $21 (Aug 25) [M] |
+| **YTD** | +39% to +43% (sources differ) [M] | about +36% [M] | not verified | **+38.3%** [M] | about +29% (around Sep 1) [M] |
+| **Market cap** | $694.75B [M] | about $415B (calc, mem share count) [L] | not verified | about $200B (calc from the Aug 31 ADR cap of $195.5B, scaled to the Oct EUR price) [L] | $70.48B equity [L] |
+| **P/E as quoted** | **trailing 21.7x** (Robinhood) or **23x** (24/7 Wall St) [M]. **P/FCF 28.6** [M] | **trailing 19.7x / forward 12.2x** at Brent >$100 (TradingKey). Another source says 32x trailing [L] | **forward 9.2x**, "two-thirds of peers" [L] | **P/E 11.0** [M]. **Morningstar normalized P/E 10.33** (Oct 7, €75.42) [M] | n/m (MLP). EV/EBITDA about **7.4x** (calc; excludes preferreds and minorities, so understated) [L] |
+| **P/E at mid-cycle (~$72.5 Brent)** | Not computed. Its trailing 21.7–23x and P/FCF 28.6 already sit at or above long-run norms, so it looks priced for high oil (judgment) | Its forward 12.2x is only reached at Brent above $100. At $70 the multiple would be materially higher (not computed) | not computed | **about 12–13x** (calc, see below) [L] | **Fee-based.** EBITDA guide is not tied to $100 oil |
+| **Dividend** | 2.45% [M] | not verified | $3.02 per share per year, about 3.2% (Sep 18) [M] | **about 4.6%** (calc: €0.90 × 4 / €78.43). Morningstar trailing 4.56% [M] | **about 6.5–6.6%** ($0.34/q, 19th straight raise) [M] |
+| **Buyback** | not verified | **$10–20B/yr (3–6% of shares)**. $5.5B in H1-26; Q3 guide $2.5–3.0B [M] | $3.0B + $1.232B tranche through Oct 23 [H] | **$1.5B in Q2, $1.5B in Q3, $2.5B in Q4-26, $2–2.5B in Q1-27.** Payout of at least 40% of CFO [M] | none (distribution) |
+| **Balance sheet** | not verified | Dividend + capex breakeven **<$50 Brent** (2026–30 average) [M] | Bought ARC Resources: **$16.4–16.5B EV**, about $10.6B paid in new shares, closed **Sep 2, 2026** [H] | **Gearing 13.1%** excluding leases (17.9% including) at Q2-26 [M] | **Net debt about $70B, about 4.4x** EBITDA (date unclear) [L]. Coverage 2.1x [M] |
+| **Next catalyst** | Q3 **Oct 30** [M] | Q3 **Oct 30** [M] | Q3 (date not verified) | Q3 (date not verified; the "main indicators" note usually comes mid-month) | Q3 (date per the BusinessWire Oct 1 notice; not captured) |
+
+**Sources for the table**
+- XOM: [Robinhood XOM](https://robinhood.com/us/en/stocks/XOM/); [24/7 Wall St, 2026-10-06](https://247wallst.com/investing/2026/10/06/exxonmobils-dividend-story-is-only-part-of-the-bull-case/); [ad-hoc-news XOM](https://www.ad-hoc-news.de/boerse/news/corporate-news/exxonmobil-stock-trades-at-eur-150-20-with-usd-698-4-billion-market-cap/70269387).
+- CVX: [TradingKey CVX, 2026-10-09](https://www.tradingkey.com/analysis/stocks/us-stocks/262208062-chevron-cvx-stock-forecast-october-9-2026-tradingkey); [tikr CVX](https://www.tikr.com/blog/chevron-stock-is-up-nearly-36-in-2026-heres-why-its-buyback-guidance-matters-on-october-30); [Yahoo CVX buyback range](https://finance.yahoo.com/news/chevron-projects-10-20b-annual-113554575.html).
+- SHEL: [Shell 6-K Sep 2](https://www.sec.gov/Archives/edgar/data/0001306965/000117184326005865/f6k_090226.htm); [CNBC ARC deal](https://www.cnbc.com/2026/04/27/shell-arc-resources-acquisition-16-billion-energy-oil.html); [Kalkine Shell buyback](https://kalkinemedia.com/uk/news/announcements/shell-plc-shel-repurchases-1425-million-shares-on-october-2-2026-via-goldman-sachs-managed-buy-back-program); [note.com Shell](https://note.com/edger_signal/n/n5be575ddb7da?hl=en).
+- TTE: [ad-hoc-news TTE, 2026-10-09](https://www.ad-hoc-news.de/boerse/news/corporate-news/totalenergies-stock-at-eur-78-43-up-38-3-percent-year-to-date/70280082); [Morningstar TTE](https://www.morningstar.com/stocks/xpar/tte/quote); [StockTitan Q4 buyback 6-K](https://www.stocktitan.net/sec-filings/TTE/6-k-total-energies-se-current-report-foreign-issuer-44fb81d9500c.html); [Globe and Mail Q2](https://www.theglobeandmail.com/investing/markets/stocks/TTE/pressreleases/3330499/totalenergies-sees-higher-q2-2026-cash-flow-and-lower-gearing-as-production-rises/); [StockTitan Q2](https://www.stocktitan.net/news/TTE/total-energies-se-second-quarter-and-first-half-2026-hahomwl69umy.html).
+- ET: [heygotrade ET](https://www.heygotrade.com/en/us-stock/et/); [ET Q2 release](https://ir.energytransfer.com/news-releases/news-release-details/energy-transfer-reports-second-quarter-2026-results-and-updates); [tikr ET +29%](https://www.tikr.com/blog/energy-transfer-stock-is-up-29-in-2026-two-guidance-raises-explain-the-run); [tikr ET payout](https://www.tikr.com/blog/energy-transfer-just-raised-its-payout-for-the-19th-straight-quarter-heres-whats-next); [Sure Dividend Aug 25](https://www.suredividend.com/wp-content/uploads/2026/08/ET-2026-08-25.pdf).
+
+### TotalEnergies mid-cycle calculation (all calc; inputs tagged)
+
+**Inputs**
+- Q2-26 **adjusted net income ≈ $6.0B** at Brent **$103.8** [M]. Annualized that is about $24B.
+- Q2-26 **CFO excluding working capital ≈ $9.8B** [M].
+- 2026 published sensitivity: **±$10/b liquids → ±$2.3B adjusted net operating income and ±$2.8B CFO** [H] ([TTE Q2 6-K](https://www.sec.gov/Archives/edgar/data/0000879764/000110465926086078/tot-20260630xex99d1.htm)). The footnote describes the sensitivity as valid in a $60–70 or a $70–80 Brent environment; documents conflict [L].
+
+**Calculation at $72.5 Brent**
+- Adjusted net income ≈ $24.0B − 3.13 × $2.3B ≈ **$16.8B**. That is before normalizing gas, LNG and refining margins, which are also elevated now. A realistic range is about **$15–17B**.
+- CFO ≈ $39.2B − 3.13 × $2.8B ≈ **$30.4B**.
+- With a market cap of about $200B [L], the mid-cycle **P/E is about 12–13x**.
+- If 2026 net capex is about $16–17B (mem, **not verified**), mid-cycle FCF is about $13–14B, a **~6.5–7% FCF yield**. On top of that sits a ~4.6% dividend yield.
+
+**Versus history**
+- Jefferies has said European majors trade **30–40% below their 20-year average P/Es**. That source is older and its date is unclear [L] ([Energy Intelligence / Oil & Gas 360](https://www.oilandgas360.com/value-gap-between-european-u-s-oil-majors-stubbornly-wide-amidst-exxon-chevron-megadeals/)).
+- Morningstar's **normalized P/E of 10.3x** [M] is consistent with TTE being at or below its long-run multiple even after +38% YTD. **TTE's own 5- and 10-year average P/E: not verified.**
+
+### Pick: **TotalEnergies (TTE, NYSE ADR / TTE.PA): conviction 3/5**
+
+**Why TTE rather than XOM or CVX**
+- XOM (trailing 21.7–23x, P/FCF 28.6) and CVX (12.2x forward only at Brent above $100) already discount sustained high oil.
+- TTE stays at about **12–13x P/E with a ~4.6% dividend and ~7% FCF yield even at $70–75 Brent**.
+- Gearing is low (13%), and the buyback was **raised** to $2.5B for Q4.
+- It still gains about $2.3B of adjusted earnings per +$10/b if the Iran spike persists, which is the hedge.
+
+**Decisive risk**
+- A fast peace deal could send Brent to $65–70 and erase 2026's +38%. The stock would likely give back 15–25% (judgment).
+- European windfall taxes are a further risk.
+- The ADR premium/discount and EUR/USD are additional variables.
+
+**What would prove the pick wrong:** a buyback cut at Q4-26 results, or gearing rising above about 20%.
+
+**Runners-up**
+- **Shell:** about 9.2x forward [L]. ARC adds gas growth and is accretive to FCF per share from 2027 [H]. Its October P/E and gearing could not be verified, so it is second choice.
+- **ET:** the lowest oil-beta income option, at a ~6.5% yield and about 7.4x EBITDA. It is a weak hedge, though, and leverage is about 4.4x.
+- **Rejected:** **XOM and CVX**, which are priced for $100 oil.
+
+**Recommendation:** buy half now and half after Q3 results, or on any oil-led dip. A small hedge weight of about 5–8% is enough; it is not a core holding.
+
+---
+
+## R2-2. UnitedHealth (UNH, NYSE): conviction 3/5. Recovery at a roughly fair multiple; cheap only on 2028 earnings
+
+**Price and range**
+- Oct 8 close **$370.95** [M].
+- Oct 9 intraday **$378.03** (1:07pm, Benzinga), **$378.40** (1:56pm, CNN), **$380.98** (2:30pm, ad-hoc-news), **$382.36** (3:23pm, Seeking Alpha). The day's range was about $373–387. **The Oct 9 close is not verified** [M] ([Benzinga UNH](https://www.benzinga.com/quote/UNH); [CNN UNH](https://www.cnn.com/markets/stocks/UNH); [ad-hoc-news, Oct 9](https://www.ad-hoc-news.de/boerse/news/corporate-news/unitedhealth-group-stock-stands-at-eur-340-10-with-usd-346-0-billion-value/70283004)).
+- Market cap about **$346B** [M].
+- 52-week range **$255.97–461.62** [H], so at $380 it is **−17.7% from the high** (calc).
+
+**Why it moved on Oct 9:** It rose **about 3.5% after CMS released the 2027 Medicare Advantage Star Ratings**, which landed in line with or slightly better than expectations. Piper kept Overweight and said the stock trades at **about 14x conservative consensus 2028 adjusted EPS**. Bernstein raised its target to **$512 from $492** [M] ([Investing.com, 2026-10-09](https://www.investing.com/news/stock-market-news/why-is-unitedhealth-stock-rallying-today-93CH-4941328)).
+
+**2026 guidance (raised after Q2, Jul 16)** ([SEC Q2 release](https://www.sec.gov/Archives/edgar/data/0000731766/000073176626000191/earningsrelease2q26_7152.htm); [HL](https://www.hl.co.uk/shares/stock-market-news/company--news/unitedhealth-lifts-guidance-as-q2-profits-smash-forecasts))
+- **Adjusted EPS $19.50–20.00** (from $17.75–18.25) [H].
+- **GAAP EPS $18.45–18.95** [H].
+- Operating cash flow about $24B. Buybacks of at least $5B [H].
+
+**One-off in Q2 (this matters)**
+- Q2 GAAP EPS was $6.04 and adjusted EPS $6.38 (vs $4.91 consensus). The MCR was **86.7% vs 89.4%**.
+- That included **$860M of favorable reserve development**, mostly for 2026 dates of service.
+- The CFO said: *"These results are not a reflection of trend bending or coming under control."* Commercial is still under pressure [M] ([Healthcare Finance News](https://healthcarefinancenews.com/news/unitedhealth-raises-outlook-q2-profit-jumps-55b); [VectorShift call summary](https://vectorshift.ai/research/companies/unitedhealth-group/earnings/2026-q2)).
+- Excluding that development, 2026 adjusted EPS is about $0.7 lower: $860M × (1 − ~25% tax) / ~0.9B shares, where the tax rate and share count are (mem). That gives **≈ $19.0 "clean" adjusted** (calc) [L].
+
+**Clean valuation (at $380)**
+- **2026 adjusted P/E ≈ 19.2x. GAAP ≈ 20.3x. "Clean" adjusted (ex-reserve release) ≈ 20x** (calc).
+- Forward 12-month P/E is quoted at **16.7x** (GuruFocus, Sep 21) and **18.4x** (Zacks, undated) [L], against a **5-year median of 19.1x** (Zacks) and a **20-year average of about 20x** (Alcapital, undated) [L].
+- **Verdict:** on 2026 clean earnings UNH is **at** its historical multiple, not below it. The discount appears only if 2027–28 earnings recover, which is Piper's 14x on 2028.
+
+**Why it is still off its high:** 2025 Medicare Advantage cost surge, guidance suspension, CEO change and DOJ probes (2025 coverage) [M]. Its 2024 peak EPS is **not verified** (mem: about $27–28 adjusted).
+
+**DOJ and legal status**
+- The criminal and civil DOJ probes into Medicare Advantage billing are **still open, with no charges or settlement reported**. They reportedly extend to Optum Rx and to how it reimburses its own physicians, and there is a separate antitrust review [L] ([Fierce Healthcare](https://www.fiercehealthcare.com/payers/wsj-report-doj-interviewing-former-employees-about-medicare-billing-practices-unitedhealth); [Yahoo/antitrust](https://finance.yahoo.com/sectors/healthcare/articles/doj-antitrust-probe-puts-focus-030638086.html); [settlementinsight](https://settlementinsight.com/unitedhealthcare-lawsuit)).
+- On **Sep 30, 2026** a federal judge dismissed with prejudice the investor class-action claims on 43 of 48 challenged statements; 5 remain [L] (settlementinsight).
+
+**Catalysts**
+- **Q3 results: Tue Oct 13, before the open** (Yahoo/TradingKey; CNN says Oct 12) [M]. Q3 consensus is $4.12 EPS on $111.4B revenue [L].
+- Morningstar named UNH one of 3 defensive buys on Sep 8, 2026 (narrow moat) [M] ([Morningstar](https://www.morningstar.com/stocks/3-defensive-stocks-buy-september-2)).
+
+**Decisive risk**
+- Cost trend has not bent (CFO's own words), and Q2 was helped by a reserve release. Q3 or the 2027 outlook could show that the 2026 raise was mostly one-off.
+- DOJ outcome: a settlement plus a corporate integrity agreement is the base case per Mizuho (2025) [L].
+
+**Recommendation:** buy **one-third to half before Oct 13**, the rest after the print and the 2027 commentary. It is the non-AI, non-cyclical diversifier, but call it **"recovery at a fair price"**, not "below fundamentals".
+
+---
+
+## R2-3. Non-AI quality name below its history: **Zoetis (ZTS, NYSE): conviction 2/5. Starter position only; explicit value-trap test**
+
+**Price and range**
+- **$71.75 (Oct 7, afternoon)** [M] ([trade-ideas](https://www.trade-ideas.com/stock-info/ZTS/)).
+- 2026 range **$68.77–132.49**, **about −43% YTD** [M].
+- 52-week low of **$69.48 on Oct 1** [M] ([Investing.com](https://www.investing.com/news/company-news/zoetis-stock-hits-52week-low-at-6948-93CH-4927685)).
+- Market cap about **$30B** (calc from an undated ~$31.6B at ~$75) [L].
+
+**Clean valuation**
+- 2026 **adjusted EPS guide $6.15–6.25**, cut twice from $6.85–7.00 [H]. That puts the stock at **≈ 11.5x 2026 adjusted EPS** (calc).
+- Trailing P/E was **12.1x in August** [L].
+- **History: it traded at 30–45x P/E over the last 3–5 years** [L] ([minivaluator](https://minivaluator.com/pe/ZTS)).
+- TTM FCF was **about $2.2B** (Q1-26) [L], an **FCF yield of about 7%** (calc).
+- **Balance sheet:** total debt about $10.0B and cash $1.5B (Q2-26, aggregator) [L]. Rated **A3/BBB+ stable** [M] ([Q1-26 10-Q](https://www.sec.gov/Archives/edgar/data/0001555280/000155528026000024/zts-20260331.htm)).
+- **Buybacks:** $1.8B remaining under the Aug-2024 authorization at Mar 31. About $1.5B of the Dec-2025 convertible-note proceeds went to buybacks, which means **leveraged buybacks** [M].
+
+**Q2-26 results (Aug 6)** [H] ([Zoetis Q2 release via Las Vegas Sun](https://lasvegassun.com/news/2026/aug/06/zoetis-announces-second-quarter-2026-results/); [Investing.com slides](https://www.investing.com/news/company-news/zoetis-q2-2026-slides-show-mixed-results-guidance-cut-93CH-4843210); [Yahoo](https://finance.yahoo.com/news/zoetis-cuts-guidance-librela-safety-010955054.html))
+- Revenue about **$2.5B, flat reported, −1% organic**. **US −7%** ($1.3B). **International +6%**.
+- Adjusted net income **−2% organic** to $781M. **Adjusted EPS $1.87** (helped by buybacks).
+- US canine osteoarthritis antibody sales (**Librela**) **$34M, −24%**.
+- **FY26 guide:** revenue $9.12–9.32B, **organic operational revenue −3% to −1%**, adjusted net income organic −9% to −5%.
+
+**Why it fell**
+- Fewer US clinic visits and more value-conscious pet owners. Management sees these as cyclical.
+- Promotional intensity in dermatology and parasiticides, which may be partly structural.
+- **Generic competition on Cerenia and Convenia** (structural, but small).
+- **Librela safety questions**, plus migration to a long-acting formulation.
+
+**Why it may be mispriced:** International is still growing 6%. Morningstar put it in its **Wide Moat Focus top-10 most undervalued on Sep 24, 2026** [M] ([Morningstar](https://www.morningstar.com/stocks/10-wide-moat-stocks-buy-that-look-cheap-today)). Several brokers (Citi, HSBC, TD Cowen) kept Buy ratings after cutting targets [L]. At about 11.5x the market is pricing permanent impairment of a historically 30x+ franchise.
+
+**Value-trap test (explicit). It is a trap if any of these happen:**
+1. Q3 (**Thu Nov 5, 2026, 8:30am ET call**; [company notice](https://secure.businesswire.com/news/home/20260924119056/en/Zoetis-to-Host-Webcast-and-Conference-Call-on-Third-Quarter-2026-Financial-Results)) brings a **third guidance cut**.
+2. The 2027 guide (Feb 2027) shows **organic revenue decline again**.
+3. US companion-animal sales do not stabilize, or there are new Librela label or safety actions.
+
+Debt-funded buybacks while earnings fall are a yellow flag.
+
+**Recommendation:** at most a **half-size starter (about 2–3%)**. Add only if Q3 shows US stabilization. **I rate the value-trap risk as high.** It is the best "well below its own history" non-AI candidate I could verify, but it is not a clean "temporary" story.
+
+### Other non-AI candidates considered for R2-3
+
+| Name | Key data | Verdict |
+|---|---|---|
+| **Medtronic (MDT)** | $83.29 on **Jul 21** (stale) [M]. 52-week range $73.31–106.33. Trailing P/E 22.4. Yield 3.41% [M] ([Lightyear](https://lightyear.com/en/stock/MDT:NYSE)). FY27 **non-GAAP EPS guide raised to $5.94–6.00** (Sep 1) [H] ([PR Newswire](https://www.prnewswire.com/news-releases/medtronic-reports-first-quarter-fiscal-2027-results-delivers-broad-based-portfolio-performance-and-raises-fiscal-2027-guidance-302865648.html)), so about 14x at the July price (calc). Q1 FY27 revenue +14% to $9.8B (includes an extra selling week) [M]. MiniMed separation still planned before fiscal year-end | **Best lower-risk alternative.** Quality at a fair-to-modestly-cheap multiple, but **not beaten down** (results are strong). The October price and the reason for the drop from $106 are **not verified**. Re-check before using. |
+| **Constellation Brands (STZ)** | FY27 **comparable EPS guide $11.20–11.90 reaffirmed** (Oct 6–7). FCF target $1.6–1.7B. Beer net sales −1% to +1%. Depletions slightly down [M] ([Fool transcript, 2026-10-07](https://www.fool.com/earnings/call-transcripts/2026/10/07/constellation-brands-stz-q2-2027-earnings-call-transcript/); [FMP](https://site.financialmodelingprep.com/market-news/constellation-brands-q2-earnings-goldman-sachs-price-target-cut)). Price **conflicting ($118–144), not verified** | **Watchlist.** Probably about 11–12x, but the price is unverified and beer volume decline looks partly structural. |
+| **Berkshire (BRK.B)** | About 1.5x book (Q1-end) and 1.85x tangible book, "lowest in several years" [L]. Buybacks restarted ($4.5B in Q2, $3.3B in July) [M] ([Fool, 2026-09-11](https://www.fool.com/investing/2026/09/11/greg-abels-berkshire-hathaway-repurchased-45-billi/)). Price not verified | **Fair, not discounted.** A good cash-like quality holding, but not a "below fundamentals" idea. |
+| **Diageo (DEO)** | New CEO **cut its outlook in Feb 2026**: organic sales −2% to −3%. Shares had their **worst fall on record**. **Dividend cut** [M] ([Bloomberg, 2026-02-25](https://www.bloomberg.com/news/articles/2026-02-25/diageo-cuts-outlook-in-early-challenge-for-new-ceo-dave-lewis)) | **Reject: value trap.** Category volume decline plus a dividend cut. |
+| **Pentair (PNR)** | **Undisclosed pool-channel destocking** led to a 2026 sales guide of −4% to −7% (from +2–4%). CFO left after about 4 months. Securities-fraud probes [M] ([Fool, 2026-07-17](https://www.fool.com/investing/2026/07/17/why-pentair-stock-suddenly-plunged-to-52-week-low/)) | **Reject:** governance and disclosure red flag. |
+| **Insulet (PODD)** | US Omnipod growth guide cut to 17–19% on weak Type 2 retention. JPMorgan downgraded. **Two directors resigned in Sep-26**. 52-week range $126.40–354.88 [M] ([Yahoo](https://finance.yahoo.com/healthcare/articles/insulet-podd-down-21-9-011155409.html)) | **Reject for now:** still a growth multiple, with governance noise. |
+
+---
+
+## R2-4. Task 2: Oct 9 closes and Uber's Q3 date
+
+- **Oct 9 closes for INTU, NFLX, UBER, ELV, ADBE and TSM:** **not obtainable.** Searches return Oct 9, **2025** prices (for example, NFLX at $1,231.07 pre-split) or late-September 2026 figures (INTU $275.72 and UBER $69.62 on Sep 26 per [InvestSmart](https://www.investsmart.com.au/security/nasdaq/intu/intuit/share-price)) [L]. **The red team or orchestrator must pull these from a live feed.** The latest prices I could verify are still the round-1 figures: TSM $453.31 (Oct 9 close), ADBE $242.25 (Oct 9; close vs intraday unconfirmed), NFLX $71.57 (Oct 8), UBER $70.24 (Oct 8), ELV $400.09 (Oct 6), INTU $291.08 (Oct 6 intraday).
+- **Uber Q3 date: unconfirmed.** Bullstory says **Nov 2** (labelled "verified") [L]. Yahoo, TrendSpider and Wall Street Horizon say **Nov 3** (estimate or "inferred") [L]. StockAnalysis said **Nov 4** in round 1 [L]. **No company announcement was found.** Treat it as "first week of November".
+- **ELV Q3 date conflict:** Earnings Whispers says **Oct 20, before the open** [L], against Oct 21 in round 1. Re-check.
+- **UNH Q3:** **Oct 13, before the open** [M] (CNN says Oct 12).
+
+---
+
+## R2 summary ranking (new candidates only)
+
+| Rank | Name | Role | Price (date) | Clean valuation vs history | Conviction | Action |
+|---|---|---|---|---|---|---|
+| 1 | **TotalEnergies (TTE)** | Energy hedge, fair at mid-cycle | €78.43 (Oct 9) | About 12–13x P/E and ~7% FCF yield at $72.5 Brent (calc, L). Morningstar normalized P/E 10.3x. Dividend 4.6% | 3 | Buy half now, half after Q3 or on an oil dip. Weight about 5–8% |
+| 2 | **UnitedHealth (UNH)** | Non-AI recovery, fair price | about $378–382 (Oct 9 intraday) | About 20x clean 2026 adjusted EPS (≈ history 19–20x). About 14x 2028 consensus | 3 | One-third to half before Oct 13, rest after |
+| 3 | **Zoetis (ZTS)** | Below its own history; value-trap risk high | $71.75 (Oct 7) | About 11.5x 2026 adjusted EPS vs 30–45x history. ~7% FCF yield | 2 | Half-size starter only. Re-assess Nov 5 |
+| Alternative | Medtronic (MDT) | Lower-risk quality | $83.29 (**Jul 21, stale**) | About 14x FY27 non-GAAP (calc at stale price) | 3 if the price is confirmed | Verify the price first |
+
+## Round 2 sources (all surfaced via WebSearch summaries; none opened directly)
+
+### Market and oil
+- https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-9-135834993.html
+- https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-09-2026
+- https://tradingeconomics.com/commodity/brent-crude-oil
+- https://fortune.com/article/price-of-oil-10-08-2026/
+- https://www.ultimahora.com/brent
+
+### Energy
+- https://robinhood.com/us/en/stocks/XOM/
+- https://247wallst.com/investing/2026/10/06/exxonmobils-dividend-story-is-only-part-of-the-bull-case/
+- https://www.ad-hoc-news.de/boerse/news/corporate-news/exxonmobil-stock-trades-at-eur-150-20-with-usd-698-4-billion-market-cap/70269387
+- https://www.tradingkey.com/analysis/stocks/us-stocks/262208062-chevron-cvx-stock-forecast-october-9-2026-tradingkey
+- https://www.tikr.com/blog/chevron-stock-is-up-nearly-36-in-2026-heres-why-its-buyback-guidance-matters-on-october-30
+- https://finance.yahoo.com/news/chevron-projects-10-20b-annual-113554575.html
+- https://www.sec.gov/Archives/edgar/data/0001306965/000117184326005865/f6k_090226.htm
+- https://www.cnbc.com/2026/04/27/shell-arc-resources-acquisition-16-billion-energy-oil.html
+- https://kalkinemedia.com/uk/news/announcements/shell-plc-shel-repurchases-1425-million-shares-on-october-2-2026-via-goldman-sachs-managed-buy-back-program
+- https://note.com/edger_signal/n/n5be575ddb7da?hl=en
+- https://www.ad-hoc-news.de/boerse/news/corporate-news/totalenergies-stock-at-eur-78-43-up-38-3-percent-year-to-date/70280082
+- https://www.morningstar.com/stocks/xpar/tte/quote
+- https://www.stocktitan.net/sec-filings/TTE/6-k-total-energies-se-current-report-foreign-issuer-44fb81d9500c.html
+- https://www.theglobeandmail.com/investing/markets/stocks/TTE/pressreleases/3330499/totalenergies-sees-higher-q2-2026-cash-flow-and-lower-gearing-as-production-rises/
+- https://www.stocktitan.net/news/TTE/total-energies-se-second-quarter-and-first-half-2026-hahomwl69umy.html
+- https://www.sec.gov/Archives/edgar/data/0000879764/000110465926086078/tot-20260630xex99d1.htm
+- https://kalkinemedia.com/uk/news/announcements/totalenergies-tte-q2-2026-trading-update-brent-climbs-to-1038b-production-nears-24-mboed-amid-middle-east-challenges
+- https://www.oilandgas360.com/value-gap-between-european-u-s-oil-majors-stubbornly-wide-amidst-exxon-chevron-megadeals/
+- https://www.heygotrade.com/en/us-stock/et/
+- https://ir.energytransfer.com/news-releases/news-release-details/energy-transfer-reports-second-quarter-2026-results-and-updates
+- https://www.tikr.com/blog/energy-transfer-stock-is-up-29-in-2026-two-guidance-raises-explain-the-run
+- https://www.tikr.com/blog/energy-transfer-just-raised-its-payout-for-the-19th-straight-quarter-heres-whats-next
+- https://www.suredividend.com/wp-content/uploads/2026/08/ET-2026-08-25.pdf
+
+### UnitedHealth
+- https://www.benzinga.com/quote/UNH
+- https://www.cnn.com/markets/stocks/UNH
+- https://www.ad-hoc-news.de/boerse/news/corporate-news/unitedhealth-group-stock-stands-at-eur-340-10-with-usd-346-0-billion-value/70283004
+- https://www.investing.com/news/stock-market-news/why-is-unitedhealth-stock-rallying-today-93CH-4941328
+- https://www.sec.gov/Archives/edgar/data/0000731766/000073176626000191/earningsrelease2q26_7152.htm
+- https://healthcarefinancenews.com/news/unitedhealth-raises-outlook-q2-profit-jumps-55b
+- https://vectorshift.ai/research/companies/unitedhealth-group/earnings/2026-q2
+- https://www.hl.co.uk/shares/stock-market-news/company--news/unitedhealth-lifts-guidance-as-q2-profits-smash-forecasts
+- https://www.gurufocus.com/term/forward-pe-ratio/UNH
+- https://www.zacks.com/stock/news/2977136/unitedhealth-stock-looks-reasonable-at-18.39x-p/e:-should-you-buy-now
+- https://alcapitaladvisory.com/research/equities/unh.html
+- https://www.fiercehealthcare.com/payers/wsj-report-doj-interviewing-former-employees-about-medicare-billing-practices-unitedhealth
+- https://finance.yahoo.com/sectors/healthcare/articles/doj-antitrust-probe-puts-focus-030638086.html
+- https://settlementinsight.com/unitedhealthcare-lawsuit
+- https://www.morningstar.com/stocks/3-defensive-stocks-buy-september-2
+
+### Zoetis and the other non-AI candidates
+- https://www.trade-ideas.com/stock-info/ZTS/
+- https://www.investing.com/news/company-news/zoetis-stock-hits-52week-low-at-6948-93CH-4927685
+- https://lasvegassun.com/news/2026/aug/06/zoetis-announces-second-quarter-2026-results/
+- https://www.investing.com/news/company-news/zoetis-q2-2026-slides-show-mixed-results-guidance-cut-93CH-4843210
+- https://finance.yahoo.com/news/zoetis-cuts-guidance-librela-safety-010955054.html
+- https://minivaluator.com/pe/ZTS
+- https://www.sec.gov/Archives/edgar/data/0001555280/000155528026000024/zts-20260331.htm
+- https://secure.businesswire.com/news/home/20260924119056/en/Zoetis-to-Host-Webcast-and-Conference-Call-on-Third-Quarter-2026-Financial-Results
+- https://www.morningstar.com/stocks/10-wide-moat-stocks-buy-that-look-cheap-today
+- https://lightyear.com/en/stock/MDT:NYSE
+- https://www.prnewswire.com/news-releases/medtronic-reports-first-quarter-fiscal-2027-results-delivers-broad-based-portfolio-performance-and-raises-fiscal-2027-guidance-302865648.html
+- https://www.fool.com/earnings/call-transcripts/2026/10/07/constellation-brands-stz-q2-2027-earnings-call-transcript/
+- https://site.financialmodelingprep.com/market-news/constellation-brands-q2-earnings-goldman-sachs-price-target-cut
+- https://www.fool.com/investing/2026/09/11/greg-abels-berkshire-hathaway-repurchased-45-billi/
+- https://www.bloomberg.com/news/articles/2026-02-25/diageo-cuts-outlook-in-early-challenge-for-new-ceo-dave-lewis
+- https://www.fool.com/investing/2026/07/17/why-pentair-stock-suddenly-plunged-to-52-week-low/
+- https://finance.yahoo.com/healthcare/articles/insulet-podd-down-21-9-011155409.html
+
+### Price and date checks
+- https://www.investsmart.com.au/security/nasdaq/intu/intuit/share-price
+- https://www.investsmart.com.au/security/nyse/uber/uber-technologies/share-price
+- https://bullstory.io/en/stocks/uber/earnings/2026-q3
+- https://www.wallstreethorizon.com/uber-earnings-calendar
+- https://beta.earningswhispers.com/go/w/ELV

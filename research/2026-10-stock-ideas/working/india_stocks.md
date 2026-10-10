@@ -17,18 +17,22 @@
 |---|---|---|---|---|---|---|---|
 | 1 | HDFC Bank (HDFCBANK) | B | ₹707.25 (H) | ₹1,020.50 / ₹681.90 | −30.7% | P/B 1.78x vs 5-year average ~2.7–2.8x (M) | 4 |
 | 2 | ICICI Bank (ICICIBANK) | A | ~₹1,354 (M) | ₹1,480 / ₹1,187.60 | −8.5% | P/B ~2.6–2.7x on Mar-26 BV ₹507 (my calc, L); ADR P/B 2.39 vs 10-year median 2.73 (M) | 4 |
-| 3 | NTPC (NTPC) | C | ₹312.00 (H) | ₹414.40 / ₹308.45 | −24.7% | P/E ~10.9x vs 5-year average ~13.3–13.7x (M) | 4 |
+| 3 | NTPC (NTPC) | **Defensive utility (relabelled in Round 3; not the capex pick)** | ₹312.00 (H) | ₹414.40 / ₹308.45 | −24.7% from a spike high; about −8% YTD (red-team calc) | P/E ~10.9x vs 5-year average ~13.3–13.7x (M) | 3 (cut from 4) |
+| 3a | **State Bank of India (SBIN), added in Round 3** | **C: primary capex pick (financing the cycle)** | ₹959.10 (H) | ₹1,234.70 / ₹857.25 | −22.3% (YTD about −8%, calc) | P/E ~10.3–11.3x vs FY22–26 median ~11.0x (in line); P/B ~1.5–1.75x standalone, ~1.4x consolidated (L/M) | 3 |
+| 3b | **Larsen & Toubro (LT), moved up from watch in Round 3** | **C: alternate capex pick (two tranches)** | ~₹3,703 (M) | ₹4,440 / ₹3,288.10 | −16.6% | ~30.7x TTM (calc) vs 5-year median 34.4x and 10-year median 27.0x (M) | 3 |
 | 4 | Maruti Suzuki (MARUTI) | B | ~₹11,228 (M; another source says ₹11,420) | ₹17,370 / ₹11,225 | −35.4% | P/E ~25x vs 10-year median ~34x (M) | 4 |
 | 5 | Reliance Industries (RELIANCE) | B | ₹1,170.30 (H) | ₹1,611.80 / ₹1,160.20 | −27.4% | P/E ~21x on TTM EPS ~₹55.2 (M); 5-year median not verified | 3 |
 | 6 | TCS (TCS) | B | ~₹2,156 (M) | ₹3,350 / ₹1,976.80 | −35.6% | fwd P/E ~14x vs ~27.5x two years ago (M) | 3 |
 | 7 | Kalpataru Projects (KPIL) | C | ₹1,390.25 (M) | ~₹1,480–1,500 / ~₹1,007 | ~−6% | P/E ~21.8x trailing; brokers value core at 16–17x FY28E (M) | 3 (promoter pledge flag) |
 | 8 | Infosys (INFY) | B | ₹1,025.10 (H) | ~₹1,728 / ₹980.40 | −40.7% | TTM P/E 13.3x; fwd ~15.4x vs 25.2x (M) | 3 (stage around 23-Oct) |
 | W | Bajaj Finance (BAJFINANCE) | A, watch | ~₹960 (M) | ₹1,178 / ₹788 | −18.5% | P/E 29.2x, P/B ~5.2x (M) | 2 |
-| W | Larsen & Toubro (LT) | C, watch | ~₹3,703 (M) | ₹4,440 / ₹3,288.10 | −16.6% | ~31x trailing; about at its 5-year median (34.4x, Jun-26) but 24% above its 10-year median on 31-Aug (M) | 2 |
+| W | KEI Industries (KEI), added in Round 3 | C, watch | ~₹5,000–5,350 (undated, L) | ₹5,899 / ₹3,729 | ~−10% | P/E ~40–44x; Q1 PAT +40% (PEG ~1) | 2 |
 | W | Power Grid (POWERGRID) | C, watch | ₹249.50 (M) | ₹324.80 / ₹245.40 | −23.2% | P/E ~15x; dividend yield ~3.5% (M) | 2 |
 | W | Hindustan Unilever (HINDUNILVR) | B, watch | ₹1,851.30 (H) | ₹2,667.20 / ₹1,826.90 | −30.6% | fwd P/E ~44x vs 57x (M) | 2 |
 
 % below high = (52w high − price) / 52w high, computed by me from the cited figures.
+
+**Round 3 note (capex).** No capital-goods or power-equipment manufacturer is reasonably priced: BHEL ~62x, ABB India 48–101x, Thermax ~65x, Cummins ~58x, GE Vernova T&D ~80–85x, Siemens Energy India ~115x forward, and Hitachi Energy India had no current P/E (~80x FY27E in January 2026). PFC and REC are cheap (~5x earnings) but their loan books grew only 1–4%. **The cycle is best played through SBI (primary) and L&T in two tranches (alternate).** KPIL is a small satellite. **If SBI is added, fund it partly from the HDFC Bank weight.** Details are in "Round 3 additions."
 
 **Correlation note.** TCS and Infosys are one "Indian IT de-rating" position. HDFC Bank and ICICI Bank are one "private banks" position. The 8 shortlisted names therefore represent roughly 6 independent bets.
 
@@ -799,3 +803,271 @@ Same caveat: surfaced via WebSearch, **pages not opened**.
 - https://www.zeebiz.com/market-news/news-it-stocks-to-buy-sell-or-hold-before-q2-results-9-picks-from-hdfc-securities-mofsl-jefferies-goldman-sachs-403260/amp
 - https://www.businesstoday.in/markets/trending-stocks/story/tcs-infosys-hcl-tech-techm-wipro-ltm-coforge-hext-fresh-target-q2-previews-for-it-stocks-556760-2026-10-02
 - https://www.businesstoday.in/amp/markets/stocks/story/tcs-infosys-hcl-tech-wipro-techm-will-it-emerge-as-dark-horse-what-analysts-say-fresh-targets-560156-2026-10-07
+
+---
+---
+
+# Round 3 additions (researched 2026-10-10): capex-cycle vehicle and macro checks
+
+**Method.** 37 WebSearch queries. WebFetch and curl were still blocked, so every figure comes from search summaries and no page was opened.
+- Tags: **H** = several sources agree or company filing; **M** = one source, or minor conflict; **L** = conflicting or stale; **calc** = my arithmetic; **mem** = my background knowledge, not re-verified.
+- I accept the red-team relabel: **NTPC is a defensive regulated utility, not the capex-cycle pick.** Per the red team it is about −8% YTD versus the Nifty's −13.8%, and the −24.7% is measured from a spike high.
+
+## R3.0 Answer up front
+
+- **No capital-goods, power-equipment or T&D manufacturer is reasonably priced.**
+  - BHEL, ABB India, Thermax and Cummins trade at roughly 50–65x trailing.
+  - GE Vernova T&D is at ~80–85x.
+  - For Hitachi Energy India I found no current P/E. The last one seen was ~80x FY27E in January 2026, so it was already very expensive.
+  - Siemens Energy India is at ~115x forward.
+  - KEI is the least stretched at ~40–44x trailing, with Q1 profit +40%, but I have no dated current price.
+- **The power-sector financiers are cheap but are not capturing the cycle.**
+  - PFC and REC trade at ~5x earnings and ~0.9x book.
+  - Their Q1 loan growth was only ~4% and ~1%.
+  - Morgan Stanley notes that bank credit to power grew 23.8%.
+- **So the cycle is best played through a bank.**
+  - **Primary capex pick: State Bank of India (SBIN), conviction 3.** Its domestic loans grew 18.2%, with corporate +18.1% and SME +22.3%. P/E is ~10–11x, about in line with its 5-year median of ~11x. Brokers' targets are ₹1,275–1,350. The caveats: deposits are lagging loans, the stock sits at its normal multiple rather than a discount, and PSU-specific risks apply (see below).
+  - **Alternate: L&T (LT), conviction 3, bought in two tranches.** It is the only reasonably priced pure play: ~30.7x TTM (calc), about 11% below its 5-year median (~34x) but above its 10-year median (~27x). The record ₹7.79 lakh cr order book is driven by private capex. The Middle East is 37% of the order book, and management has said the first half of FY27 will be subdued. Buy half now and half after the Q2 print (date not announced; last year it was 29-Oct).
+  - **KPIL** (Round 2) remains a small satellite: cheaper at ~22x, but promoter shares are pledged.
+- **Portfolio note.** SBI adds to an already heavy financials weight (HDFC Bank, ICICI Bank). Following the red team, fund SBI partly by trimming HDFC Bank rather than adding to total financials.
+
+---
+
+## R3.1 State Bank of India (NSE: SBIN). Primary capex-cycle pick. Conviction 3
+
+**Price and range**
+- **Price:** ₹959.10 close on 9-Oct-26, +2.03% from ₹940; day range ₹938–960 ([5paisa](https://www.5paisa.com/blog/state-bank-of-india-stock-update-09-oct-26); [ad-hoc-news](https://www.ad-hoc-news.de/boerse/news/corporate-news/state-bank-of-india-stock-at-inr-959-10-22-3-percent-below-its-high/70279808); H).
+- **52-week range:** ₹857.25 (or ₹861.30) to ₹1,234.70, so the stock is **−22.3% from its high** (M).
+  - The high was set after 6-Jan-26 (when the 52-week high was still ₹1,023.95) and before 21-Aug-26 (when it was ₹1,048.70 against a 52-week range of ₹799–1,235) ([Craytheon](https://craytheon.com/stocks/sbi/); M).
+  - On 20-Feb-26 SBI was ~₹1,216, +16.5% YTD. That implies a 2025 close of ~₹1,044 and **YTD ≈ −8% now (calc, L)**, slightly better than the Nifty.
+- **Market cap:** ~₹8.85 lakh cr (M).
+
+**Valuation versus history**
+- **P/E:** 10.3–11.3x trailing (two sources conflict; M).
+  - SBI's own investor-relations page lists year-end P/Es for FY22–FY26 of 13.91, 9.31, 11.00, 9.71 and 11.18. **The median is ~11.0x**, so SBI trades at about its 5-year median P/E. It is not at a discount ([SBI IR, 5-year highlights](https://sbi.bank.in/en/web/investor-relations/sbi-financial-highlights-past-5); M).
+- **P/B, with the book basis stated:**
+  - **Standalone: ~1.5–1.75x.** Third-party book-value-per-share figures disagree: ₹552.6 (MoneyWorks4Me, Jun–Jul 26), ₹576.8 or ₹608.5 (Bajaj Broking, basis unclear), ₹636.5 (ICICI Direct, 28-Sep-26). 959.1 ÷ 636.5 = 1.51x; ÷ 552.6 = 1.74x (calc, L).
+  - **Consolidated: ~1.38x** on GuruFocus BVPS of ₹695.45 for the June-2026 quarter. GuruFocus calls this "close to its 1-year low" ([GuruFocus](https://www.gurufocus.com/term/book-value-per-share/NSE:SBIN); M).
+  - **Versus history:** MoneyWorks4Me had P/B at 1.85–1.89x in June–July 2026 at a higher price and described it as "in line with / higher than" its 5-year median. At ₹959 that is roughly at or just below the median (L).
+  - **Ex-subsidiaries (L):** one fund manager, about 311 days ago, valued subsidiaries (SBI Life, SBI Cards, SBI MF, NSE stake and others) at ~₹300 per share. On that basis the core bank trades at ~₹660, or about 1.0–1.2x standalone book (calc) ([TradingView/Moneycontrol](https://www.tradingview.com/news/moneycontrol:6c30485aa094b:0-sbi-stock-top-pick-in-psu-banking-space-driven-by-attractive-valuations-expert-says/)).
+
+**Q1 FY27 (Apr–Jun 2026; reported 7-Aug-26)** ([SBI press release](https://sbi.bank.in/documents/17836/1275616/07082026_SBI+Press+Release+Q1FY27.pdf/5b585a3e-12a2-b7d2-3e4a-36ed20256dee?t=1786091722982); [BS](https://www.business-standard.com/companies/quarterly-results/sbi-q1fy27-net-profit-rises-10-percent-to-rs-21121-crore-126080701143_1.html); [Investing.com slides](https://www.investing.com/news/company-news/sbi-q1-fy27-slides-record-profit-lowest-npas-in-2-decades-93CH-4846658); [Multibagg](https://www.multibagg.ai/market-pulse/articles/sbi-q1fy27-profit-nim-npas-cmsiqoygz00770zmdieoykwx1); H unless noted)
+
+| Item | Q1 FY27 |
+|---|---|
+| Standalone PAT | **₹21,121 cr, +10.2% YoY** |
+| NII | +14.9% YoY |
+| NIM | **Domestic 3.00%** (+7 bp QoQ); whole-bank 2.86% (2.89% a year ago) |
+| Gross advances | **+18.63% to ₹50.47 lakh cr** |
+| Domestic advances | **+18.15% to ₹42.76 lakh cr**: agriculture +25.4%, **SME +22.3%, corporate +18.05%**, retail personal +15.2% |
+| Deposits | **Only +9.73% to ₹60.06 lakh cr**, +0.5% QoQ |
+| CASA ratio | 39.24% |
+| Asset quality | GNPA 1.47% (1.83% a year ago), NNPA 0.38%; "lowest in two decades" |
+| Credit cost | 0.27% |
+| Returns | **ROA 1.11%, ROE 17.87%** |
+| Capital | CAR 15.67% |
+| FY27 guidance (M) | Credit growth 14–15%; domestic NIM ~3% |
+
+**Why SBI is the capex vehicle**
+- Its corporate and SME books (+18%, +22%) are where capex credit shows up.
+- Morgan Stanley data: **bank credit to power grew 23.8%** and system non-food credit 18.3%, while PFC and REC loan books grew only ~4% and ~1%. **Banks are taking the share** ([Whalesbook](https://www.whalesbook.com/news/English/bankingfinance/Morgan-Stanley-Downgrades-PFC-REC-After-Loan-Growth-Slows/6a86ba8584d2dd5c12dd42db); [BS 20-Aug-26](https://www.business-standard.com/markets/news/pfc-rec-drop-up-to-3-as-morgan-stanley-downgrades-amid-loan-growth-woes-126082000539_1.html); M).
+- SBI is also less exposed than contractors to ICRA's warning that capex could be pared. It lends to private capex, MSMEs and agriculture as well as government projects.
+
+**Brokers after Q1**
+- Systematix Buy ₹1,300 (1.5x FY28E adjusted book, standalone).
+- JM Financial Buy ₹1,275.
+- Range including Emkay: ₹1,275–1,350, which is **+33–41%** ([Equentis](https://www.equentis.com/blog/sbi-share-buy-now-or-wait-brokerages-review-q1-results/); M).
+
+**Why it fell (−22% from high)**
+- Broad risk-off since the Iran war.
+- PSU-bank selling on 28-Sep (market fall, union strike threat, merger rumours that the government's fact-check unit denied) ([Goodreturns](https://www.goodreturns.in/news/psu-banks-crash-sbi-pnb-canara-baroda-bank-stocks-fall-2-bank-strike-public-sector-banks-merger-buzz-1537637.html)).
+- Bond yields rising with record government borrowing (₹17.2 lakh cr) and now the RBI hike, which hurts treasury portfolios.
+- Investors disappointed that the FDI cap for PSU banks was not raised (M).
+
+**Q2 FY27 date:** **not announced.** Last year's was 4-Nov-25, and the SEBI deadline is 14-Nov-26 ([Trendlyne board meetings](https://trendlyne.com/equity/board-meeting/SBIN/1193/state-bank-of-india-board_meeting/); M).
+
+**PSU-bank risks and what would prove the thesis wrong**
+1. **Funding gap.** Deposits +9.7% against loans +18.6%. If the bank has to pay up for deposits after the RBI hike, the 3% domestic NIM guidance is at risk. Deposit growth stuck below ~10% while NIM falls below ~2.8% would break the thesis.
+2. **ECL accounting from 1-Apr-27.** RBI's final directions were issued 27-Apr-26. CRISIL estimates a one-time net hit to CET1 of up to 120 bp, spread over four years. SBI is in scope ([CRISIL](https://www.crisilratings.com/en/home/newsroom/press-releases/2026/04/for-banks-ecl-norms-to-have-one-time-net-impact-of-up-to-120-bps.html); [KPMG](https://kpmg.com/in/en/insights/2026/05/expected-credit-loss.html); [ICRA](https://www.icra.in/Research/ViewResearchReport/rbi-releases-final-ecl-framework-impact-on-banks-capitalisation-profile-likely-to-be-moderate/6908); H).
+3. **Labour.** UFBU threatened an indefinite strike from **26-Oct-26** over the 5-day week, incentive pay and pensions. A *The Week* headline on 28-Sep says a strike was "postponed," but the scope is unclear ([Business Today](https://www.businesstoday.in/industry/banks/story/bank-strikes-in-september-4-day-nationwide-shutdown-planned-indefinite-strike-threat-from-october-26-552616-2026-09-01); [The Week](https://www.theweek.in/news/biz-tech/2026/09/28/bank-strike-postponed-india-ufbu.html); M). An operational and wage-cost risk.
+4. **State ownership.** Possible directed lending, dilutive equity raises (not verified for 2026) and government-stake overhang. The government's stake is **not verified** (a 2022 figure of 57.57% is stale).
+5. **Mark-to-market losses on bonds** if yields keep rising.
+
+**Verdict.** SBI is not deeply cheap; it trades at about its own 5-year P/E median. But it is the cheapest liquid, high-ROE (~18%) instrument that is visibly growing capex-linked credit at 18–22%. **Conviction 3. Half now, half after Q2 (early November).**
+
+---
+
+## R3.2 L&T, deeper. Alternate capex pick. Conviction 3, two tranches
+
+**Price and valuation**
+- **Price:** ~₹3,703.30 on 9-Oct-26, +2.16%. 52-week range ₹4,440 / ₹3,288.10, so the stock is −16.6% from its high (M).
+  - The stock fell ~7% on 2-Mar-26, early in the war, to an intraday low of ₹3,960. One report puts the fall since the 28-Feb escalation at **~18%** (M, [Multibagg](https://www.multibagg.ai/market-pulse/articles/lnt-shares-fall-middle-east-cmn1q0tqorgbcs30jggj2b7ml), [BS 23-Mar-26](https://www.business-standard.com/markets/capital-market-news/larsen-toubro-declines-amid-middle-east-concerns-says-operations-largely-stable-126032300637_1.html)).
+- **Earnings base:** FY26 consolidated PAT ₹16,084 cr (+7%); revenue ₹2,85,874 cr (+12%); order inflow ₹4,35,590 cr (+22%); final dividend ₹38 ([PSU Connect](https://www.psuconnect.in/financial/l-t-fy26-results-record-orders-4-35-lakh-cr-patup-18-38-dividend-announced); [BS 5-May-26](https://www.business-standard.com/companies/quarterly-results/l-t-q4fy26-results-net-profit-declines-3-pc-to-rs-5-325-60-cr-revenue-up-11-pc-126050501474_1.html); H).
+- **TTM PAT ≈ ₹16,590 cr (calc):** FY26 plus Q1 FY27 ₹4,123 cr, minus the implied Q1 FY26 ₹3,617 cr.
+- **On ~137.5 cr shares (mem), EPS ≈ ₹120.7, so P/E ≈ 30.7x (calc).** This matches the 30.72x one source quoted.
+- **Versus history (M):**
+  - 5-year median **34.4x** (Craytheon, June 2026), so ~11% below.
+  - 10-year median **27.0x** (GuruFocus), so ~14% above. GuruFocus had it at 33.55x on 31-Aug-26, "24% above median."
+  - **Fair, not cheap.**
+- **Dividend yield:** ~1.0% (calc).
+
+**Middle East exposure and the actual impact of the Iran war**
+- **Exposure:**
+  - Middle East = **~37% of the order book** (₹7.79 lakh cr) and **42% of Q1 FY27 inflow**.
+  - International = 52% of the order book and 56% of Q1 inflow ([Investing.com](https://www.investing.com/news/company-news/larsen--toubro-q1-fy27-slides-order-book-surges-27-on-offshore-wind-93CH-4817743); M).
+  - Iran has struck targets in Bahrain, Qatar, Saudi Arabia, the UAE, Kuwait and Jordan (per filings by Elbit and Tidewater surfaced in search; M).
+- **Effects so far:**
+  1. **Q4 FY26 revenue missed guidance by ~₹5,000 cr.** Management warned of a "soft" H1 FY27, and FY27 earnings expectations were cut ([BS 6-May-26](https://www.business-standard.com/amp/markets/news/iran-conflict-disruption-weakens-l-t-s-h1fy27-outlook-after-soft-q4-126050601296_1.html); M).
+  2. **Q1 FY27:**
+     - Revenue only +7%; Infrastructure revenue −3%.
+     - Group EBITDA margin 9.0% vs 9.9%, "due to lower execution and **higher ECL provisions**." That suggests some receivables caution; my inference.
+     - Middle East award conversion slowed and some awards were deferred.
+  3. **Management, per secondary call summaries (M):**
+     - "No active projects cancelled; clients continue to pay on schedule; bidding robust."
+     - About **half the order book is fixed-price**. L&T will seek client agreement before absorbing exceptional logistics costs, and it expects reimbursement for time and cost overruns.
+     - H1 subdued, H2 better.
+     - Guidance assumes Middle East awards improve from Q2.
+     - Sources: [Investing.com transcript](https://www.investing.com/news/transcripts/earnings-call-transcript-larsen--toubro-posts-steady-q1-2027-growth-amid-headwinds-93CH-4817731), [Quartermark](https://quartermark.in/companies/LT/earnings-calls/Q1-FY27/earnings).
+  4. **Receivables:** no disclosed stress found. **Not verified.**
+
+**Domestic order trend**
+- Q1 FY27 domestic inflow ≈ **₹47,300 cr** (calc: ₹1,08,014 cr total − ₹60,702 cr international).
+- **Private sector = ~77% of domestic inflow (52% a year earlier).** The domestic engine is now private capex (metals and minerals, buildings and factories), not government. That reduces direct exposure to the ICRA fiscal-slippage risk.
+- **Remaining 9M FY27 prospect pipeline: ₹15.07 trn, of which domestic ₹7.45 trn (49%)** ([ICICI Direct](https://www.icicidirect.com/research/equity/trending-news/l-t-q1fy27-pat-up-14-to-4-123-cr-revenue-rises-7-to-67-942-cr); [Abhinav Mishra substack](https://abhinavmishra.substack.com/p/l-and-t-q1-fy27-results-pat-rises); M).
+- **Not verified:** the year-on-year domestic inflow growth rate.
+
+**Guidance (retained):** FY27 order inflow and revenue +10–12%; P&M margin ~7.8%; net working capital ~10%.
+
+**Brokers:** ICICI Direct Buy ₹5,000; LKP Buy ₹4,570; PL Buy ₹4,425; a Buy at ₹4,400 cited by BT on 8-Oct (M).
+
+**Q2 FY27 date:** not announced; last year's was 29-Oct-25 (M).
+
+**What would prove it wrong**
+- Middle East awards stay deferred through Q2–Q3.
+- Margin remains ≤9%.
+- Any project cancellation or receivable write-down in the Gulf.
+- Private domestic ordering slows.
+
+**Verdict.** The best-quality pure capex play, at a fair (not cheap) multiple, with a visible war overhang. **Buy half now; add after the Q2 print if Middle East execution and inflow recover.**
+
+---
+
+## R3.3 Capital goods, power equipment and T&D: valuation screen
+
+| Name | Price (date) | P/E | Latest quarter | Verdict |
+|---|---|---|---|---|
+| **BHEL** | ~₹430–436 (9-Oct, M) | **~62x** | Q1 FY27 revenue ₹7,698 cr (+40%); PAT ~₹377–400 cr (vs a loss); order book **₹2.60 lakh cr** (+27%) | **Reject.** At a fresh 52-week high (₹454.50 on 7-Oct; range ₹229.5–456); turnaround already priced. [ICICI Direct](https://www.icicidirect.com/research/equity/trending-news/bhel-q1fy27-revenue-surges-40-to-7-698-cr-company-swings-to-382-cr-net-profit-on-power-boom), [BS](https://www.business-standard.com/markets/news/bhel-s-robust-outlook-reflected-in-valuations-after-strong-q1-turnaround-126071701231_1.html) |
+| **ABB India** | ~₹6,854 (2-Oct, M) | 48–101x (sources conflict) | Q2 CY26 revenue ₹3,559 cr (+21%); orders ₹8,600 cr (+50%); EBITDA margin 12.6% (13.6% in Q1; copper) | **Reject: expensive.** 52-week range ₹4,640.50–7,923.35. [Investing.com transcript](https://www.investing.com/news/transcripts/earnings-call-transcript-abb-india-posts-strong-q2-2026-orders-as-margins-tighten-93CH-4828919), [Anand Rathi](https://anandrathi.com/stocks/abb-india-ltd/share-price-today) |
+| **Hitachi Energy India** | not verified | No current P/E. The last seen was ~80x FY27E (BS, Jan-26, L), so very expensive. | Q1 FY27 revenue ₹2,494 cr (+69%), PAT ₹294 cr (+124%), EBITDA 16.0%, backlog **₹32,222 cr** | **Reject: expensive.** Execution is excellent, but the price was already rich. [Hitachi Energy press release](https://www.hitachienergy.com/uk-ie/en/news-and-events/press-releases/2026/08/hitachi-energy-india-limited-announces-q1-fy27-results), [DSIJ](https://insights.dsij.in/dsijarticledetail/low-debt-power-equipment-stock-reports-124-pat-growth-in-q1-fy27-order-book-hits-record-rs-32222-crore) |
+| **Siemens Energy India** | ~₹3,300–3,530 (undated, L) | ~115x fwd (Simply Wall St, undated, L) | Apr–Jun 2026: revenue ₹2,486 cr (+39%), PAT ₹441 cr (+68%), backlog ₹19,331 cr; MOSL Buy ₹4,100 | **Reject: expensive.** [HDFC Sky](https://hdfcsky.com/news/siemens-energy-india-q3-profit-growth), [Value Investors Club](https://valueinvestorsclub.in/stocks/ENRIN.NS) |
+| **GE Vernova T&D India** | ₹4,198 (Screener snippet, ~early Oct, M) | **~80–85x** | — | **Reject.** [Value Research](https://www.valueresearchonline.com/stocks/41088/ge-vernova-td-india-ltd/) |
+| **Cummins India** | ~₹4,944–5,040 (Sep, L) | ~58x | Q1 FY27 revenue +18% (₹3,430 cr); **adjusted PAT −2%** (commodity costs); data centres 40% of powergen; low-horsepower exports −20% (West Asia) | **Reject.** [Cofacto](https://cofacto.ai/market-news/cumminsind-q1-fy27-earnings-call), [Upstox](https://upstox.com/stocks/cummins-india-ltd-share-price/) |
+| **Thermax** | ~₹3,138 (early Oct, L) | ~65x | Q1 FY27 PAT ₹22 cr (−86%; ₹91 cr project overrun); order book ₹14,045 cr (+23%); Kotak upgraded to Buy, ₹4,000 | **Reject.** Earnings miss at a high multiple. [Investing.com](https://www.investing.com/news/company-news/thermax-q1-fy27-slides-profit-plunges-86-on-project-overrun-93CH-4826910) |
+| **KEI Industries** | ~₹5,000–5,350 (undated, L) | ~40–44x | Q1 FY27 revenue ₹3,185 cr (+23%), PAT ₹274 cr (+40%), EBITDA margin 12.4% | **Watch.** The only one with PEG ≈ 1, but no dated price; ~10% below its 52-week high of ₹5,899. [NiftyTrader](https://www.niftytrader.in/markets/kei-industries-shares-q1-fy27-results/), [Groww](https://groww.in/stocks/kei-industries-ltd) |
+| **PFC / REC** (power financiers) | PFC ₹325.55 (8-Oct); REC ₹299.00 (9-Oct) | PFC ~4–5x, P/B ~0.6–1.0; REC 4.89x, P/B 0.92, yield ~6% | **Loan growth only ~4% (PFC) and ~1% (REC)** in Q1. Morgan Stanley downgraded both to Equal-Weight on 20-Aug (targets ₹410 / ₹360). Proposed merger is an overhang. REC 52-week range ₹286.25–388. | **Reject as a capex vehicle.** Cheap because banks are taking power-sector share. Possible income idea only. [BS](https://www.business-standard.com/markets/news/pfc-rec-drop-up-to-3-as-morgan-stanley-downgrades-amid-loan-growth-woes-126082000539_1.html), [BS REC quote](https://www.business-standard.com/markets/rec-ltd-share-price-18075.html), [Kotak Neo PFC](https://www.kotakneo.com/stocks/power-finance-corporation-share-price/) |
+
+An undated sector snapshot also lists **CG Power ~119x and Siemens Ltd ~117x** ([Univest](https://univest.in/sectors/capital-goods); L). **Conclusion: the manufacturers are priced for perfection. None qualifies as "sensible."**
+
+---
+
+## R3.4 Red-team macro corrections
+
+| Item | Finding | Confidence |
+|---|---|---|
+| **FX reserves** | **$734.61 bn**, week ended **2-Oct-26** (RBI data released 9-Oct). Down $12.95 bn on the week; the **fourth straight weekly fall**; **−$51.1 bn from the 4-Sep-26 peak of ~$785.7 bn**. FCA ~$604.7 bn, gold ~$106.4 bn. +$34.6 bn YoY. Sources: [ANI](https://aninews.in/news/business/indias-forex-reserves-fall-by-1295-billion-to-73461-billion-in-week-ended-oct-2-rbi20261009183051/), [BS](https://www.business-standard.com/amp/economy/news/india-s-forex-reserves-drop-for-fourth-week-down-12-95-bn-to-734-6-bn-126100901061_1.html), [Daily Jagran](https://www.thedailyjagran.com/business/news/indias-foreign-exchange-reserves-slide-further-down-usd51-billion-from-record-high-10332152) | **H.** This confirms the $734 bn and −$51 bn figures the red team marked unverified. |
+| **Nifty 12-month forward P/E** | **No primary October-2026 figure found** (Motilal's latest found is January 2026: 21.2x vs a 20.8x long-period average). Secondary October summaries say **~17–19x**, "17.4x vs 21.5x two years ago," or ~18.5x. Trailing P/E **19.02 on 8-Oct** (nifty-pe-ratio.com). The red team's calculated 15.6–16x is **not confirmed**; the secondary sources sit higher. Best stated as **"~16–18.5x forward, below the ~20.8x long-period average."** Sources: [Whalesbook](https://www.whalesbook.com/news/English/economy/Nifty-50-Valuations-Hit-Decade-Lows-as-Selloff-Deepens/6ac465005aacb956d08d1c87), [Multibagg](https://www.multibagg.ai/market-pulse/articles/nifty-valuation-reset-after-fall-cmuxlip0m00042yqv9wv05ncq), [nifty-pe-ratio.com](https://nifty-pe-ratio.com/) | L/M |
+| **HDFC Bank Q2 date** | **Saturday 17-Oct-26, confirmed.** Exchange intimation dated 22-Sep-26, also filed on Form 6-K. Trading window closed 24-Sep to 19-Oct. Sources: [TipRanks](https://www.tipranks.com/news/company-announcements/hdfc-bank-sets-october-17-board-meeting-to-review-september-quarter-results-imposes-trading-blackout), [StockTitan 6-K](https://www.stocktitan.net/sec-filings/HDB/6-k-hdfc-bank-ltd-current-report-foreign-issuer-3d5e07a6ea77.html), [Angel One](https://www.angelone.in/news/stocks/hdfc-bank-share-price-in-focus-as-board-to-review-q2-fy27-results-on-october-17-2026) | **H.** This resolves the red team's "unconfirmed." |
+| **ICICI Bank Q2 date** | **Saturday 17-Oct-26.** Board meeting for the quarter and half-year to 30-Sep; trading window 1–19 Oct (single secondary source) ([NiftyTrader](https://www.niftytrader.in/markets/?p=31856)) | M |
+| **SBI Q2 date** | Not announced; expected early November (last year 4-Nov; deadline 14-Nov) | M |
+
+---
+
+## R3.5 Changes to the ranking
+
+- **NTPC:** relabelled "defensive regulated utility (bond proxy)." Conviction 3 (from 4); no longer the capex pick.
+- **SBI:** added as the **primary capex-cycle pick**, conviction 3. Fund it partly from HDFC Bank's weight.
+- **L&T:** moved from watch to **alternate capex pick**, conviction 3, two tranches.
+- **KPIL:** kept as a small satellite, conviction 3 with the pledge flag.
+- **KEI:** watch.
+- **All other capital goods:** rejected on valuation. PFC and REC rejected as capex vehicles.
+
+## R3.6 Sources (Round 3)
+
+Same caveat: surfaced via WebSearch, pages not opened.
+
+**SBI**
+- https://www.5paisa.com/blog/state-bank-of-india-stock-update-09-oct-26
+- https://www.ad-hoc-news.de/boerse/news/corporate-news/state-bank-of-india-stock-at-inr-959-10-22-3-percent-below-its-high/70279808
+- https://www.business-standard.com/companies/quarterly-results/sbi-q1fy27-net-profit-rises-10-percent-to-rs-21121-crore-126080701143_1.html
+- https://sbi.bank.in/documents/17836/1275616/07082026_SBI+Press+Release+Q1FY27.pdf/5b585a3e-12a2-b7d2-3e4a-36ed20256dee?t=1786091722982
+- https://www.investing.com/news/company-news/sbi-q1-fy27-slides-record-profit-lowest-npas-in-2-decades-93CH-4846658
+- https://www.multibagg.ai/market-pulse/articles/sbi-q1fy27-profit-nim-npas-cmsiqoygz00770zmdieoykwx1
+- https://www.gurufocus.com/term/book-value-per-share/NSE:SBIN
+- https://www.bajajbroking.in/stock/state-bank-of-india-share-price
+- https://www.tickertape.in/stocks/state-bank-of-india-SBI
+- https://www.icicidirect.com/stocks/state-bank-of-india-share-price
+- https://www.moneyworks4me.com/indianstocks/large-cap/bfsi/bank-public/state-bank-of-india/analysis-and-overview
+- https://craytheon.com/stocks/sbi/
+- https://sbi.bank.in/en/web/investor-relations/sbi-financial-highlights-past-5
+- https://www.equentis.com/blog/sbi-share-buy-now-or-wait-brokerages-review-q1-results/
+- https://www.tradingview.com/news/moneycontrol:6c30485aa094b:0-sbi-stock-top-pick-in-psu-banking-space-driven-by-attractive-valuations-expert-says/
+- https://www.goodreturns.in/news/psu-banks-crash-sbi-pnb-canara-baroda-bank-stocks-fall-2-bank-strike-public-sector-banks-merger-buzz-1537637.html
+- https://www.multibagg.ai/market-pulse/articles/psu-bank-stocks-fdi-clarification-cmnrbnz5vmddpma0jmlz9glps
+- https://trendlyne.com/equity/board-meeting/SBIN/1193/state-bank-of-india-board_meeting/
+- https://www.psuconnect.in/stock/psu-bank-stocks-rally-2026-nifty-psu-bank-index-hits-9665
+
+**Banking sector (strike, ECL, power-sector credit)**
+- https://www.businesstoday.in/industry/banks/story/bank-strikes-in-september-4-day-nationwide-shutdown-planned-indefinite-strike-threat-from-october-26-552616-2026-09-01
+- https://www.theweek.in/news/biz-tech/2026/09/28/bank-strike-postponed-india-ufbu.html
+- https://www.crisilratings.com/en/home/newsroom/press-releases/2026/04/for-banks-ecl-norms-to-have-one-time-net-impact-of-up-to-120-bps.html
+- https://kpmg.com/in/en/insights/2026/05/expected-credit-loss.html
+- https://www.icra.in/Research/ViewResearchReport/rbi-releases-final-ecl-framework-impact-on-banks-capitalisation-profile-likely-to-be-moderate/6908
+- https://www.whalesbook.com/news/English/bankingfinance/Morgan-Stanley-Downgrades-PFC-REC-After-Loan-Growth-Slows/6a86ba8584d2dd5c12dd42db
+
+**PFC / REC**
+- https://www.business-standard.com/markets/news/pfc-rec-drop-up-to-3-as-morgan-stanley-downgrades-amid-loan-growth-woes-126082000539_1.html
+- https://www.business-standard.com/markets/rec-ltd-share-price-18075.html
+- https://www.kotakneo.com/stocks/power-finance-corporation-share-price/
+- https://www.screener.in/company/PFC/consolidated/
+
+**L&T**
+- https://www.business-standard.com/amp/markets/news/iran-conflict-disruption-weakens-l-t-s-h1fy27-outlook-after-soft-q4-126050601296_1.html
+- https://www.business-standard.com/markets/capital-market-news/larsen-toubro-declines-amid-middle-east-concerns-says-operations-largely-stable-126032300637_1.html
+- https://www.multibagg.ai/market-pulse/articles/lnt-shares-fall-middle-east-cmn1q0tqorgbcs30jggj2b7ml
+- https://www.investing.com/news/transcripts/earnings-call-transcript-larsen--toubro-posts-steady-q1-2027-growth-amid-headwinds-93CH-4817731
+- https://quartermark.in/companies/LT/earnings-calls/Q1-FY27/earnings
+- https://www.icicidirect.com/research/equity/trending-news/l-t-q1fy27-pat-up-14-to-4-123-cr-revenue-rises-7-to-67-942-cr
+- https://abhinavmishra.substack.com/p/l-and-t-q1-fy27-results-pat-rises
+- https://www.psuconnect.in/financial/l-t-fy26-results-record-orders-4-35-lakh-cr-patup-18-38-dividend-announced
+- https://www.business-standard.com/companies/quarterly-results/l-t-q4fy26-results-net-profit-declines-3-pc-to-rs-5-325-60-cr-revenue-up-11-pc-126050501474_1.html
+- https://www.marketscreener.com/quote/stock/LARSEN-TOUBRO-LIMITED-6491923/calendar/
+
+**Capital goods screen**
+- https://www.icicidirect.com/research/equity/trending-news/bhel-q1fy27-revenue-surges-40-to-7-698-cr-company-swings-to-382-cr-net-profit-on-power-boom
+- https://www.business-standard.com/markets/news/bhel-s-robust-outlook-reflected-in-valuations-after-strong-q1-turnaround-126071701231_1.html
+- https://univest.in/blogs/why-bharat-heavy-electricals-ltd-share-price-52-week-high-today-2026
+- https://www.investing.com/news/transcripts/earnings-call-transcript-abb-india-posts-strong-q2-2026-orders-as-margins-tighten-93CH-4828919
+- https://anandrathi.com/stocks/abb-india-ltd/share-price-today
+- https://www.hitachienergy.com/uk-ie/en/news-and-events/press-releases/2026/08/hitachi-energy-india-limited-announces-q1-fy27-results
+- https://insights.dsij.in/dsijarticledetail/low-debt-power-equipment-stock-reports-124-pat-growth-in-q1-fy27-order-book-hits-record-rs-32222-crore
+- https://hdfcsky.com/news/siemens-energy-india-q3-profit-growth
+- https://valueinvestorsclub.in/stocks/ENRIN.NS
+- https://www.valueresearchonline.com/stocks/41088/ge-vernova-td-india-ltd/
+- https://cofacto.ai/market-news/cumminsind-q1-fy27-earnings-call
+- https://upstox.com/stocks/cummins-india-ltd-share-price/
+- https://www.investing.com/news/company-news/thermax-q1-fy27-slides-profit-plunges-86-on-project-overrun-93CH-4826910
+- https://www.niftytrader.in/markets/kei-industries-shares-q1-fy27-results/
+- https://groww.in/stocks/kei-industries-ltd
+- https://univest.in/sectors/capital-goods
+
+**Macro and results dates**
+- https://aninews.in/news/business/indias-forex-reserves-fall-by-1295-billion-to-73461-billion-in-week-ended-oct-2-rbi20261009183051/
+- https://www.business-standard.com/amp/economy/news/india-s-forex-reserves-drop-for-fourth-week-down-12-95-bn-to-734-6-bn-126100901061_1.html
+- https://www.thedailyjagran.com/business/news/indias-foreign-exchange-reserves-slide-further-down-usd51-billion-from-record-high-10332152
+- https://www.whalesbook.com/news/English/economy/Nifty-50-Valuations-Hit-Decade-Lows-as-Selloff-Deepens/6ac465005aacb956d08d1c87
+- https://www.multibagg.ai/market-pulse/articles/nifty-valuation-reset-after-fall-cmuxlip0m00042yqv9wv05ncq
+- https://nifty-pe-ratio.com/
+- https://www.tipranks.com/news/company-announcements/hdfc-bank-sets-october-17-board-meeting-to-review-september-quarter-results-imposes-trading-blackout
+- https://www.stocktitan.net/sec-filings/HDB/6-k-hdfc-bank-ltd-current-report-foreign-issuer-3d5e07a6ea77.html
+- https://www.angelone.in/news/stocks/hdfc-bank-share-price-in-focus-as-board-to-review-q2-fy27-results-on-october-17-2026
+- https://www.niftytrader.in/markets/?p=31856
